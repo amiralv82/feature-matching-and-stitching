@@ -58,7 +58,7 @@ Two overlapping images are stitched together using SIFT keypoints and homography
 Install dependencies:
 ```bash
 pip install opencv-python numpy
-
+```
 ⸻
 
 Key Insights
@@ -71,6 +71,7 @@ Key Insights
 Theory Behind the Code
 
 The project includes explanations (in Persian and English) for:
+
 	•	DoG in SIFT
 	•	Descriptor Construction
 	•	Lowe’s Ratio Test
@@ -80,19 +81,21 @@ The project includes explanations (in Persian and English) for:
 ⸻
 
  How to Run
+ 
 	1.	Upload image1.jpg and image2.jpg.
 	2.	Run the script or open it in Google Colab.
 	3.	Visual output includes:
-	•	Grayscale conversion
-	•	Keypoint visualizations
-	•	Feature matches
-	•	Homography matrix
-	•	Final stitched image
+		•	Grayscale conversion
+		•	Keypoint visualizations
+		•	Feature matches
+		•	Homography matrix
+		•	Final stitched image
 
 
 ⸻
 
 Acknowledgments
+
 	•	OpenCV community
 	•	Google Colab for easy experimentation
 	•	Lowe et al. for SIFT
