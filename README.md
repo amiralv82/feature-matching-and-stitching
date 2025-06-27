@@ -12,8 +12,10 @@ The project is divided into the following stages:
    Convert input color images to grayscale, as feature detectors work on intensity rather than color.
 
 2. **Feature Extraction**  
-   - **SIFT**: Extracts robust keypoints using scale-space extrema (DoG) and generates 128-dimensional descriptors.  
+   - **SIFT**: Extracts robust keypoints using scale-space extrema (DoG) and generates 128-dimensional descriptors.
+![SIFT Keypoints](images/image1.jpg) 
    - **ORB**: A fast, binary alternative using FAST + BRIEF.
+   - ![ORB Keypoints](ORB Keypoints.png) 
 
 3. **Performance Comparison**  
    - Count and display number of keypoints detected by each algorithm.  
@@ -23,6 +25,7 @@ The project is divided into the following stages:
 4. **Feature Matching**  
    - Uses **FLANN** (Fast Library for Approximate Nearest Neighbors) for fast matching of SIFT descriptors.  
    - **Lowe’s Ratio Test** is applied to filter good matches.
+     
 
 5. **Homography Estimation**  
    - A homography matrix is computed using **RANSAC** to align two images.  
