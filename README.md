@@ -69,14 +69,14 @@ Install dependencies:
 ```bash
 pip install opencv-python numpy
 ```
-⸻
+---
 
 Key Insights
 
 •	Use SIFT when accuracy and detail are important.
 •	Use ORB for speed and efficiency in real-time applications.
 
-⸻
+---
 
 Theory Behind the Code
 
@@ -88,7 +88,7 @@ The project includes explanations (in Persian and English) for:
 •	FLANN Matching
 •	Homography Matrix Interpretation
 
-⸻
+---
 
  How to Run
  
@@ -107,7 +107,7 @@ The project includes explanations (in Persian and English) for:
   	•	Final stitched image
 
 
-⸻
+---
 
 Acknowledgments
 
@@ -119,7 +119,7 @@ Acknowledgments
 
 •	Rublee et al. for ORB
 
-⸻
+---
 
 Author
 
