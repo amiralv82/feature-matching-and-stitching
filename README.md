@@ -13,9 +13,12 @@ The project is divided into the following stages:
 
 2. **Feature Extraction**  
    - **SIFT**: Extracts robust keypoints using scale-space extrema (DoG) and generates 128-dimensional descriptors.
-![SIFT Keypoints](images/Feature_Matching.png) 
+     
+![SIFT Keypoints](images/SIFT_keypoints.png)
+
    - **ORB**: A fast, binary alternative using FAST + BRIEF.
-   - ![ORB Keypoints](ORB Keypoints.png) 
+     
+![ORB Keypoints](images/ORB_keypoints.png) 
 
 3. **Performance Comparison**  
    - Count and display number of keypoints detected by each algorithm.  
@@ -25,6 +28,8 @@ The project is divided into the following stages:
 4. **Feature Matching**  
    - Uses **FLANN** (Fast Library for Approximate Nearest Neighbors) for fast matching of SIFT descriptors.  
    - **Lowe’s Ratio Test** is applied to filter good matches.
+
+![Feature Matching](images/Feature_Matching.png) 
      
 
 5. **Homography Estimation**  
@@ -38,6 +43,8 @@ The project is divided into the following stages:
 ---
 
 ##  Sample Results
+
+![Result](images/Final_stiched_image.png) 
 
 ###  SIFT vs ORB Keypoints
 
@@ -66,8 +73,8 @@ pip install opencv-python numpy
 
 Key Insights
 
-	•	Use SIFT when accuracy and detail are important.
-	•	Use ORB for speed and efficiency in real-time applications.
+•	Use SIFT when accuracy and detail are important.
+•	Use ORB for speed and efficiency in real-time applications.
 
 ⸻
 
@@ -75,34 +82,42 @@ Theory Behind the Code
 
 The project includes explanations (in Persian and English) for:
 
-	•	DoG in SIFT
-	•	Descriptor Construction
-	•	Lowe’s Ratio Test
-	•	FLANN Matching
-	•	Homography Matrix Interpretation
+•	DoG in SIFT
+•	Descriptor Construction
+•	Lowe’s Ratio Test
+•	FLANN Matching
+•	Homography Matrix Interpretation
 
 ⸻
 
  How to Run
  
-	1.	Upload image1.jpg and image2.jpg.
-	2.	Run the script or open it in Google Colab.
-	3.	Visual output includes:
-		•	Grayscale conversion
-		•	Keypoint visualizations
-		•	Feature matches
-		•	Homography matrix
-		•	Final stitched image
+1.	Upload image1.jpg and image2.jpg.
+2.	Run the script or open it in Google Colab.
+3.	Visual output includes:
+   
+	•	Grayscale conversion
+
+   	•	Keypoint visualizations
+
+  	•	Feature matches
+
+  	•	Homography matrix
+
+  	•	Final stitched image
 
 
 ⸻
 
 Acknowledgments
 
-	•	OpenCV community
-	•	Google Colab for easy experimentation
-	•	Lowe et al. for SIFT
-	•	Rublee et al. for ORB
+•	OpenCV community
+
+•	Google Colab for easy experimentation
+
+•	Lowe et al. for SIFT
+
+•	Rublee et al. for ORB
 
 ⸻
 
