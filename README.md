@@ -13,7 +13,7 @@ The project is divided into the following stages:
 
 2. **Feature Extraction**  
    - **SIFT**: Extracts robust keypoints using scale-space extrema (DoG) and generates 128-dimensional descriptors.
-![SIFT Keypoints](images/image1.jpg) 
+![SIFT Keypoints](images/Feature_Matching.png) 
    - **ORB**: A fast, binary alternative using FAST + BRIEF.
    - ![ORB Keypoints](ORB Keypoints.png) 
 
